@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.primera {
+  font-family: "WindSong", cursive;
+  font-size: 30px;
+  font-style: inherit;
+  text-decoration: solid;
+  background-color: #fcf3cf;
+}
+.primera .navbar {
+  height: 250px;
+  background-image: url(../imagenes/fondo.jpg);
+  margin: solid #fef9e7 5px;
+}
+.primera .submenu {
+  font-family: "WindSong", cursive;
+  font-size: 30px;
+}
+
+.collapse {
+  padding-left: 30px;
+  padding-right: 10px;
+}
+
+.carousel-inner {
+  width: 100%;
+  height: 500px;
+}
+
+footer {
+  background-image: url(../imagenes/fondo.jpg);
+  text-align: center;
+  font-family: "WindSong", cursive;
+  padding-top: 20px;
+  font-weight: initial;
+  font-size: 30px;
+  text-decoration: solid;
+}
+footer .redes {
+  padding: 10px;
+}
+footer .mail:hover {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  /**/
+}
+
+/*@media only screen and (min-width: 992px) {
+    .containerSuc {color: red; }
+  }
+  @media only screen and (min-width:796px) and (max-width: 991px){
+  @media only screen and (max-width: 795px){*/
+/*@mixin mediaq ($media) {
+
+    @media 
+*/
+
+/*# sourceMappingURL=style.css.map */

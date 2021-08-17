@@ -1,0 +1,12 @@
+@import"../base/mixing";
+
+.encabezado {
+    @include mix-parametros
+}
+
+.cardx {
+    @include trasform;
+}
+.cardx {
+    @include parametros-cards
+}

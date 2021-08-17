@@ -1,0 +1,26 @@
+@mixin mix-parametros($whidth, $height, $display, $aling) {
+    width: $whidth;
+    height: $height;
+    display: $display;
+    justify-content: $aling;   
+}
+
+
+@mixin parametros-cards ($margen, $mabajo){
+    margin-left: $margen;
+    margin-bottom: $mabajo;
+}
+    
+@mixin trasform {
+    transform: scale(2);
+}
+/*@media only screen and (min-width: 992px) {
+    .containerSuc {color: red; }
+  }
+  @media only screen and (min-width:796px) and (max-width: 991px){
+  @media only screen and (max-width: 795px){*/
+
+/*@mixin mediaq ($media) {
+
+    @media 
+*/    

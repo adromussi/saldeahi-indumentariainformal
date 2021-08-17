@@ -1,0 +1,35 @@
+@import"./base/fonts";
+@import"./base/colores";
+
+
+ .news {
+    font-family: $font1;
+    font-size: 30px;
+    font-style: inherit;
+    text-decoration: solid;
+    height: 250px;
+    background-image: url(../imagenes/fondo.jpg);
+    margin: solid nth($colorcard,5) 5px;
+}
+
+.piepag {
+    background-image: url(../imagenes/fondo.jpg);
+    text-align: center;
+    font-family: $font1;
+    padding-top: 20px;
+    font-weight: initial;
+    font-size: 30px;
+    text-decoration: solid;
+    .redes{
+        padding: 10px;
+    }
+    .mail {
+        
+        &:hover{
+            font-family: $font2;
+            /**/
+        }
+    }
+    
+}
+    
