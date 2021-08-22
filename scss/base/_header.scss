@@ -1,12 +1,12 @@
-@import"./fonts";
-@import"./colores";
+@import"../base/fonts";
+@import"../base/colores";
 *{
     margin: 0;
     padding: 0;
 }
 
 .primera {
-    font-family: $font1;
+    font-family: $font3;
     font-size: 30px;
     font-style: inherit;
     text-decoration: solid;
@@ -15,14 +15,14 @@
 
     .navbar{
         height: 250px;
-        background-image: url(../imagenes/fondo.jpg);
+        background-image: url(/imagenes/acuarela.jpg);
         margin: solid nth($colorcard,5) 5px;
        
         
 
     }
     .submenu {
-        font-family: $font1;
+        font-family: $font3;
         font-size: 30px;
 
     }
@@ -40,7 +40,7 @@
 footer {
     background-image: url(../imagenes/fondo.jpg);
     text-align: center;
-    font-family: $font1;
+    font-family: $font3;
     padding-top: 20px;
     font-weight: initial;
     font-size: 30px;
