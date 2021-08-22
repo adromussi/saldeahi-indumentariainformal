@@ -1,27 +1,90 @@
-.news {
+/*@media only screen and (min-width: 992px) {
+    .containerSuc {color: red; }
+  }
+  @media only screen and (min-width:796px) and (max-width: 991px){
+  @media only screen and (max-width: 795px){*/
+/*@mixin mediaq ($media) {
+
+    @media 
+*/
+.primera {
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
   font-style: inherit;
   text-decoration: solid;
+}
+.primera .navbar {
   height: 250px;
-  background-image: url(../imagenes/acuarela.jpg);
-  margin: solid #fef9e7 5px;
+  background-image: url(../imagenes/fondorosah.jpg);
+  background-size: cover;
+}
+.primera .navbar .logo1 {
+  margin-left: 10px;
+}
+.primera .navbar .menu {
+  margin-left: 80px;
+}
+.primera .navbar .menu .link {
+  margin: 10px;
+  color: black;
+  text-decoration: solid;
+  font-style: italic;
+}
+.primera .navbar .menu .link:hover {
+  color: rgba(10, 3, 3, 0.445);
+}
+.primera .navbar .menu .submenu {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  color: black;
+  text-decoration: solid;
+  font-style: italic;
+  /*&:hover{
+      background-color:nth ($colorfondos,3) ;
+
+  }*/
 }
 
-.piepag {
-  background-image: url(../imagenes/acuarela.jpg);
+.newsection {
+  padding-top: 20px;
+  background-color: #f6ddcc;
+}
+.newsection .card {
+  background-image: url(../imagenes/fondorosah.jpg);
+  border-radius: 20px;
+  border: cadetblue solid 5px;
+}
+.newsection .card .fotos3 {
+  border-radius: 30px;
+  padding: 10px;
+}
+.newsection .card .texto {
+  color: black;
+  text-decoration: solid;
+  font-style: italic;
+  text-align: center;
+  font-size: 18px;
+}
+
+.finpagnew {
+  background-image: url(../imagenes/fondorosah.jpg);
+  background-color: #f6ddcc;
+  background-size: auto;
   text-align: center;
   font-family: "Montserrat", sans-serif;
   padding-top: 20px;
   font-weight: initial;
-  font-size: 30px;
+  font-size: 15px;
+  color: black;
   text-decoration: solid;
+  font-style: italic;
 }
-.piepag .redes {
+.finpagnew .redes {
   padding: 10px;
 }
-.piepag .mail:hover {
+.finpagnew .mail:hover {
   font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 30px;
   /**/
 }
 
@@ -56,15 +119,16 @@
   font-style: inherit;
   text-decoration: solid;
 }
-.primera .logo1 {
-  margin-left: 10px;
-}
 .primera .navbar {
   height: 250px;
   background-image: url(../imagenes/fondorosah.jpg);
+  background-size: cover;
+}
+.primera .navbar .logo1 {
+  margin-left: 10px;
 }
 .primera .navbar .menu {
-  margin-left: 60px;
+  margin-left: 80px;
 }
 .primera .navbar .menu .link {
   margin: 10px;
@@ -88,7 +152,7 @@
 }
 
 .section1 {
-  background-color: #b1befc;
+  background-color: rgba(156, 236, 236, 0.966);
   height: 80px;
   text-align: center;
   font-family: "Montserrat", sans-serif;
@@ -106,16 +170,28 @@
 
 .section3 {
   background-image: url(../imagenes/fondorosah.jpg);
+  background-size: auto;
+}
+.section3 .fotos2 {
+  padding: 10px;
+  width: 95%;
+}
+.section3 .fotos2:hover {
+  transform: scale(2);
+  width: 60%;
 }
 
 .finpag {
   background-image: url(../imagenes/fondorosah.jpg);
+  background-size: auto;
   text-align: center;
   font-family: "Montserrat", sans-serif;
   padding-top: 20px;
   font-weight: initial;
-  font-size: 30px;
+  font-size: 20px;
+  color: black;
   text-decoration: solid;
+  font-style: italic;
 }
 .finpag .redes {
   padding: 10px;

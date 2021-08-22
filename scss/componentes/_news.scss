@@ -1,25 +1,85 @@
 @import"../base/fonts";
 @import"../base/colores";
+@import"../base/mixing";
 
 
- .news {
+.primera {
     font-family: $font3;
     font-size: 30px;
     font-style: inherit;
     text-decoration: solid;
-    height: 250px;
-    background-image: url(../imagenes/acuarela.jpg);
-    margin: solid nth($colorcard,5) 5px;
-}
+   
+    .navbar{
+        height: 250px;
+        background-image: url(../imagenes/fondorosah.jpg);
+        background-size: cover;
 
-.piepag {
-    background-image: url(../imagenes/acuarela.jpg);
+        .logo1 {
+            margin-left: 10px;
+           
+        }
+        .menu {
+            margin-left: 80px;
+            .link {
+                margin: 10px;
+                @include mixmenu;
+
+                &:hover { 
+                    
+                    color: rgba(10, 3, 3, 0.445)
+                }
+            }
+            .submenu {
+                font-family: $font3;
+                font-size: 30px;
+                @include mixmenu;
+
+                /*&:hover{
+                    background-color:nth ($colorfondos,3) ;
+                   
+                }*/
+        
+            } 
+            
+        }
+        
+        
+        
+
+    }
+    
+}
+.newsection{
+    padding-top: 20px;
+    background-color: nth($colorfondos, 3);
+   
+    .card {
+        background-image: url(../imagenes/fondorosah.jpg); 
+        border-radius: 20px;
+        border: cadetblue solid 5px;
+        .fotos3{
+            border-radius: 30px;
+            padding: 10px;
+        }
+        .texto{
+            @include mixmenu;
+            text-align: center;
+            font-size: 18px;
+        }
+    }
+
+}
+.finpagnew {
+    background-image: url(../imagenes/fondorosah.jpg);
+    background-color: nth($colorfondos,3 );
+    background-size:auto;
     text-align: center;
     font-family: $font3;
     padding-top: 20px;
     font-weight: initial;
-    font-size: 30px;
-    text-decoration: solid;
+    font-size: 15px;
+    @include mixmenu;
+    
     .redes{
         padding: 10px;
     }
@@ -27,9 +87,9 @@
         
         &:hover{
             font-family: $font2;
+            font-size: 30px;
             /**/
         }
     }
     
 }
-    

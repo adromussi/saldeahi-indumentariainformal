@@ -6,17 +6,18 @@
     font-size: 30px;
     font-style: inherit;
     text-decoration: solid;
-   
-    .logo1 {
-        margin-left: 10px;
-       
-    }
-    
+
     .navbar{
         height: 250px;
         background-image: url(../imagenes/fondorosah.jpg);
+        background-size: cover;
+
+        .logo1 {
+            margin-left: 10px;
+           
+        }
         .menu {
-            margin-left: 60px;
+            margin-left: 80px;
             .link {
                 margin: 10px;
                 @include mixmenu;
@@ -47,7 +48,7 @@
     
 }
 .section1 {
-    background-color:rgb(177, 190, 252);
+    background-color:rgba(156, 236, 236, 0.966);
     height: 80px;
     text-align: center;
     font-family: $font3;
@@ -67,24 +68,27 @@
 }
 .section3 {
     background-image: url(../imagenes/fondorosah.jpg);
-   
-    
-    
+    background-size: auto;
+    .fotos2{
+        padding: 10px;
+        width: 95%;
+        &:hover {
+            @include trasform;
+            width: 60%;
+        }
+        
+    }  
 }
-
-
-
 .finpag {
     background-image: url(../imagenes/fondorosah.jpg);
-    
-    
+    background-size:auto;
     text-align: center;
     font-family: $font3;
     padding-top: 20px;
     font-weight: initial;
-    font-size: 30px;
-    text-decoration: solid;
-
+    font-size: 20px;
+    @include mixmenu;
+    
     .redes{
         padding: 10px;
     }
