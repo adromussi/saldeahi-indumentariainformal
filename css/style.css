@@ -4,14 +4,14 @@
   font-style: inherit;
   text-decoration: solid;
   height: 250px;
-  background-image: url(../imagenes/fondo.jpg);
+  background-image: url(../imagenes/acuarela.jpg);
   margin: solid #fef9e7 5px;
 }
 
 .piepag {
-  background-image: url(../imagenes/fondo.jpg);
+  background-image: url(../imagenes/acuarela.jpg);
   text-align: center;
-  font-family: "WindSong", cursive;
+  font-family: "Montserrat", sans-serif;
   padding-top: 20px;
   font-weight: initial;
   font-size: 30px;
@@ -48,6 +48,50 @@
 .cardx {
   margin-left: 30px;
   margin-bottom: 50px;
+}
+
+.primera {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-style: inherit;
+  text-decoration: solid;
+  background-color: #fcf3cf;
+}
+.primera .navbar {
+  height: 250px;
+  background-image: url(../imagenes/fondorosah.jpg);
+  margin: solid #fef9e7 5px;
+}
+.primera .submenu {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+}
+
+.collapse {
+  padding-left: 30px;
+  padding-right: 10px;
+}
+
+.carousel-inner {
+  width: 100%;
+  height: 500px;
+}
+
+footer {
+  background-image: url(../imagenes/rosa-hojas.jpg);
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 20px;
+  font-weight: initial;
+  font-size: 30px;
+  text-decoration: solid;
+}
+footer .redes {
+  padding: 10px;
+}
+footer .mail:hover {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  /**/
 }
 
 /*# sourceMappingURL=style.css.map */
