@@ -1,3 +1,9 @@
+@mixin mixmenu  {
+    color: black;
+    text-decoration: solid;
+    font-style: italic;
+    
+}
 @mixin mix-parametros($width, $height, $display, $aling) {
     width: $width;
     height: $height;

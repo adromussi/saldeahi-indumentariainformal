@@ -55,30 +55,57 @@
   font-size: 30px;
   font-style: inherit;
   text-decoration: solid;
-  background-color: #fcf3cf;
+}
+.primera .logo1 {
+  margin-left: 10px;
 }
 .primera .navbar {
   height: 250px;
   background-image: url(../imagenes/fondorosah.jpg);
-  margin: solid #fef9e7 5px;
 }
-.primera .submenu {
+.primera .navbar .menu {
+  margin-left: 60px;
+}
+.primera .navbar .menu .link {
+  margin: 10px;
+  color: black;
+  text-decoration: solid;
+  font-style: italic;
+}
+.primera .navbar .menu .link:hover {
+  color: rgba(10, 3, 3, 0.445);
+}
+.primera .navbar .menu .submenu {
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
+  color: black;
+  text-decoration: solid;
+  font-style: italic;
+  /*&:hover{
+      background-color:nth ($colorfondos,3) ;
+
+  }*/
 }
 
-.collapse {
-  padding-left: 30px;
-  padding-right: 10px;
+.section1 {
+  background-color: #b1befc;
+  height: 80px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  text-decoration: solid;
+  font-style: italic;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.carousel-inner {
+.fotos1 {
   width: 100%;
   height: 500px;
 }
 
-footer {
-  background-image: url(../imagenes/rosa-hojas.jpg);
+.footer {
+  background-image: url(../imagenes/fondorosah.jpg);
   text-align: center;
   font-family: "Montserrat", sans-serif;
   padding-top: 20px;
@@ -86,11 +113,12 @@ footer {
   font-size: 30px;
   text-decoration: solid;
 }
-footer .redes {
+.footer .redes {
   padding: 10px;
 }
-footer .mail:hover {
+.footer .mail:hover {
   font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 30px;
   /**/
 }
 
