@@ -99,12 +99,16 @@
   padding-bottom: 20px;
 }
 
-.fotos1 {
+.section2 .fotos1 {
   width: 100%;
   height: 500px;
 }
 
-.footer {
+.section3 {
+  background-image: url(../imagenes/fondorosah.jpg);
+}
+
+.finpag {
   background-image: url(../imagenes/fondorosah.jpg);
   text-align: center;
   font-family: "Montserrat", sans-serif;
@@ -113,10 +117,10 @@
   font-size: 30px;
   text-decoration: solid;
 }
-.footer .redes {
+.finpag .redes {
   padding: 10px;
 }
-.footer .mail:hover {
+.finpag .mail:hover {
   font-family: "Yanone Kaffeesatz", sans-serif;
   font-size: 30px;
   /**/
