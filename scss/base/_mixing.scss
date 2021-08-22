@@ -1,5 +1,5 @@
-@mixin mix-parametros($whidth, $height, $display, $aling) {
-    width: $whidth;
+@mixin mix-parametros($width, $height, $display, $aling) {
+    width: $width;
     height: $height;
     display: $display;
     justify-content: $aling;   

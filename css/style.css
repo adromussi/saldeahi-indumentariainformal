@@ -1,18 +1,53 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 1 | @import"./base/fonts";
- *   |        ^^^^^^^^^^^^^^
- *   '
- *   scss\componentes\_news.scss 1:8  @import
- *   scss\style.scss 1:8              root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502  @import\"./base/fonts\";\d\a   \2502         ^^^^^^^^^^^^^^\a   \2575 \a   scss\\componentes\\_news.scss 1:8  @import\a   scss\\style.scss 1:8              root stylesheet";
+.news {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-style: inherit;
+  text-decoration: solid;
+  height: 250px;
+  background-image: url(../imagenes/fondo.jpg);
+  margin: solid #fef9e7 5px;
 }
+
+.piepag {
+  background-image: url(../imagenes/fondo.jpg);
+  text-align: center;
+  font-family: "WindSong", cursive;
+  padding-top: 20px;
+  font-weight: initial;
+  font-size: 30px;
+  text-decoration: solid;
+}
+.piepag .redes {
+  padding: 10px;
+}
+.piepag .mail:hover {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  /**/
+}
+
+/*@media only screen and (min-width: 992px) {
+    .containerSuc {color: red; }
+  }
+  @media only screen and (min-width:796px) and (max-width: 991px){
+  @media only screen and (max-width: 795px){*/
+/*@mixin mediaq ($media) {
+
+    @media 
+*/
+.encabezado {
+  width: 20px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.cardx {
+  transform: scale(2);
+}
+
+.cardx {
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */

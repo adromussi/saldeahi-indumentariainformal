@@ -1,12 +1,13 @@
 @import"../base/mixing";
 
+
 .encabezado {
-    @include mix-parametros
+    @include mix-parametros(20px, 30px, flex, center);
 }
 
 .cardx {
     @include trasform;
 }
 .cardx {
-    @include parametros-cards
+    @include parametros-cards( 30px, 50px);
 }
