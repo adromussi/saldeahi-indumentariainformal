@@ -52,6 +52,7 @@
 .newsection{
     padding-top: 20px;
     background-color: nth($colorfondos, 3);
+    background-image: url(../imagenes/acuarela.jpg);
    
     .card {
         background-image: url(../imagenes/fondorosah.jpg); 
@@ -69,15 +70,14 @@
     }
 
 }
-.finpagnew {
+.finpag {
     background-image: url(../imagenes/fondorosah.jpg);
-    background-color: nth($colorfondos,3 );
     background-size:auto;
     text-align: center;
     font-family: $font3;
     padding-top: 20px;
     font-weight: initial;
-    font-size: 15px;
+    font-size: 20px;
     @include mixmenu;
     
     .redes{
@@ -86,7 +86,7 @@
     .mail {
         
         &:hover{
-            font-family: $font2;
+            font-family:$font2;
             font-size: 30px;
             /**/
         }

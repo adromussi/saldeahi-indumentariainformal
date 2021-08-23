@@ -3,7 +3,7 @@
 
 .primera {
     font-family: $font3;
-    font-size: 30px;
+    font-size: 20px;
     font-style: inherit;
     text-decoration: solid;
 
@@ -29,7 +29,7 @@
             }
             .submenu {
                 font-family: $font3;
-                font-size: 30px;
+                font-size: 20px;
                 @include mixmenu;
 
                 /*&:hover{
@@ -48,7 +48,8 @@
     
 }
 .section1 {
-    background-color:rgba(156, 236, 236, 0.966);
+    background-image: url(../imagenes/acuarela.jpg);
+    background-size: cover;
     height: 80px;
     text-align: center;
     font-family: $font3;

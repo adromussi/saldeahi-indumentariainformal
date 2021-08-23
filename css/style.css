@@ -48,6 +48,7 @@
 .newsection {
   padding-top: 20px;
   background-color: #f6ddcc;
+  background-image: url(../imagenes/acuarela.jpg);
 }
 .newsection .card {
   background-image: url(../imagenes/fondorosah.jpg);
@@ -66,23 +67,22 @@
   font-size: 18px;
 }
 
-.finpagnew {
+.finpag {
   background-image: url(../imagenes/fondorosah.jpg);
-  background-color: #f6ddcc;
   background-size: auto;
   text-align: center;
   font-family: "Montserrat", sans-serif;
   padding-top: 20px;
   font-weight: initial;
-  font-size: 15px;
+  font-size: 20px;
   color: black;
   text-decoration: solid;
   font-style: italic;
 }
-.finpagnew .redes {
+.finpag .redes {
   padding: 10px;
 }
-.finpagnew .mail:hover {
+.finpag .mail:hover {
   font-family: "Yanone Kaffeesatz", sans-serif;
   font-size: 30px;
   /**/
@@ -115,7 +115,7 @@
 
 .primera {
   font-family: "Montserrat", sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   font-style: inherit;
   text-decoration: solid;
 }
@@ -141,7 +141,7 @@
 }
 .primera .navbar .menu .submenu {
   font-family: "Montserrat", sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   color: black;
   text-decoration: solid;
   font-style: italic;
@@ -152,7 +152,8 @@
 }
 
 .section1 {
-  background-color: rgba(156, 236, 236, 0.966);
+  background-image: url(../imagenes/acuarela.jpg);
+  background-size: cover;
   height: 80px;
   text-align: center;
   font-family: "Montserrat", sans-serif;
