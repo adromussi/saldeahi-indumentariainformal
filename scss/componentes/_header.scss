@@ -17,7 +17,7 @@
            
         }
         .menu {
-            margin-left: 80px;
+            margin-left: 200px;
             .link {
                 margin: 10px;
                 @include mixmenu;
@@ -48,8 +48,7 @@
     
 }
 .section1 {
-    background-image: url(../imagenes/acuarela.jpg);
-    background-size: cover;
+    background-color: #E6E6FA;
     height: 80px;
     text-align: center;
     font-family: $font3;
@@ -94,10 +93,11 @@
         padding: 10px;
     }
     .mail {
+        padding: 10px;
         
         &:hover{
             font-family: $font2;
-            font-size: 30px;
+            font-size: 25px;
             /**/
         }
     }

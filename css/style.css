@@ -46,14 +46,13 @@
 }
 
 .newsection {
+  margin: auto 20px;
   padding-top: 20px;
-  background-color: #f6ddcc;
-  background-image: url(../imagenes/acuarela.jpg);
 }
 .newsection .card {
   background-image: url(../imagenes/fondorosah.jpg);
   border-radius: 20px;
-  border: cadetblue solid 5px;
+  border: #ffffd5;
 }
 .newsection .card .fotos3 {
   border-radius: 30px;
@@ -139,22 +138,6 @@
 
     @media 
 */
-.encabezado {
-  width: 20px;
-  height: 30px;
-  display: flex;
-  justify-content: center;
-}
-
-.cardx {
-  transform: scale(2);
-}
-
-.cardx {
-  margin-left: 30px;
-  margin-bottom: 50px;
-}
-
 .primera {
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
@@ -170,7 +153,7 @@
   margin-left: 10px;
 }
 .primera .navbar .menu {
-  margin-left: 80px;
+  margin-left: 200px;
 }
 .primera .navbar .menu .link {
   margin: 10px;
@@ -194,8 +177,7 @@
 }
 
 .section1 {
-  background-image: url(../imagenes/acuarela.jpg);
-  background-size: cover;
+  background-color: #E6E6FA;
   height: 80px;
   text-align: center;
   font-family: "Montserrat", sans-serif;
@@ -239,9 +221,12 @@
 .finpag .redes {
   padding: 10px;
 }
+.finpag .mail {
+  padding: 10px;
+}
 .finpag .mail:hover {
   font-family: "Yanone Kaffeesatz", sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   /**/
 }
 

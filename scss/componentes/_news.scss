@@ -50,14 +50,15 @@
     
 }
 .newsection{
+    margin: auto 20px;
     padding-top: 20px;
-    background-color: nth($colorfondos, 3);
-    background-image: url(../imagenes/acuarela.jpg);
+    
+    
    
     .card {
         background-image: url(../imagenes/fondorosah.jpg); 
         border-radius: 20px;
-        border: cadetblue solid 5px;
+        border: #ffffd5;
         .fotos3{
             border-radius: 30px;
             padding: 10px;
