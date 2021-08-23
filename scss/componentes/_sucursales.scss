@@ -1,0 +1,47 @@
+@import"../base/fonts";
+@import"../base/colores";
+
+.sucursales{
+    padding: 20px;
+
+    .card1{
+        margin: 20px;
+        background-image: url(../imagenes/fondorosah.jpg);
+        background-size: cover;
+        .fotos4{
+            width: 100%;
+            height: 60%;
+            padding: 15px;
+            align-content: center;
+            
+        }
+        .texto2{
+            text-align: center;
+            @include mixmenu;
+
+        }
+    }
+}
+.finpag {
+    background-image: url(../imagenes/fondorosah.jpg);
+    background-size:auto;
+    text-align: center;
+    font-family: $font3;
+    padding-top: 20px;
+    font-weight: initial;
+    font-size: 20px;
+    @include mixmenu;
+    
+    .redes{
+        padding: 10px;
+    }
+    .mail {
+        
+        &:hover{
+            font-family: $font2;
+            font-size: 30px;
+            /**/
+        }
+    }
+    
+}
