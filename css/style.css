@@ -139,8 +139,8 @@
     @media 
 */
 .primera {
-  font-family: "Montserrat", sans-serif;
-  font-size: 20px;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 25px;
   font-style: inherit;
   text-decoration: solid;
 }
@@ -151,9 +151,11 @@
 }
 .primera .navbar .logo1 {
   margin-left: 10px;
+  width: 80%;
+  height: 80%;
 }
 .primera .navbar .menu {
-  margin-left: 250px;
+  margin-left: 200px;
 }
 .primera .navbar .menu .link {
   margin: 10px;
@@ -165,7 +167,7 @@
   color: rgba(10, 3, 3, 0.445);
 }
 .primera .navbar .menu .submenu {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Yanone Kaffeesatz", sans-serif;
   font-size: 20px;
   color: black;
   text-decoration: solid;
@@ -181,7 +183,7 @@
   height: 80px;
   text-align: center;
   font-family: "Yanone Kaffeesatz", sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   font-style: italic;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -236,19 +238,24 @@
     height: 90%;
     margin-right: 100px;
   }
-
+}
+@media only screen and (min-width: 992px) {
   .section1 {
     font-size: 5px;
   }
 }
-@media only screen and (min-width: 992px) {
-  .menu {
-    margin-left: 0%;
-    align-content: center;
+@media only screen and (min-width: 576px) {
+  .logo {
+    width: 60px;
+    height: 60px;
   }
-
-  .section1 {
-    font-size: 5px;
+}
+@media only screen and (min-width: 360 px) {
+  .logo1 {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
   }
 }
 
