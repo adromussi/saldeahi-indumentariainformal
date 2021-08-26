@@ -13,12 +13,10 @@
         background-size: cover;
 
         .logo1 {
-            margin-left: 10px;
-            
-           
+            margin-left: 10px;    
         }
         .menu {
-            margin-left: 300px;
+            margin-left: 250px;
             .link {
                 margin: 10px;
                 @include mixmenu;
@@ -52,9 +50,8 @@
     background-color: #E6E6FA;
     height: 80px;
     text-align: center;
-    font-family: $font3;
+    font-family: $font2;
     font-size: 30px;
-    text-decoration: solid;
     font-style: italic;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -103,4 +100,30 @@
         }
     }
     
+}
+
+/*MEDIAS*/
+@media only screen and (min-width: 1200px) {
+    .logo1{
+        width: 90%;
+        height: 90%;
+        margin-right: 100px;
+    }
+    .section1{
+       font-size: 5px;
+    }
+}
+@media only screen and (min-width: 992px){
+    .menu{
+      margin-left: 0%;
+      align-content: center;
+      
+       
+    }
+    .section1{
+       
+       font-size: 5px;
+      
+    }
+
 }
