@@ -1,0 +1,11 @@
+@mixin media-uno($media){
+    @media only screen and (min-width: 992px) {
+    }
+}
+@mixin media-dos($media){ 
+  @media only screen and (min-width:796px) and (max-width: 991px){
+}}
+
+@mixin media-tres($media){
+@media only screen and (max-width: 795px){}
+}
