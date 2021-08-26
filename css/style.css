@@ -14,7 +14,6 @@
   text-decoration: solid;
 }
 .primera .navbar {
-  height: 250px;
   background-image: url(../imagenes/fondorosah.jpg);
   background-size: cover;
 }
@@ -145,7 +144,6 @@
   text-decoration: solid;
 }
 .primera .navbar {
-  height: 250px;
   background-image: url(../imagenes/fondorosah.jpg);
   background-size: cover;
 }
@@ -256,6 +254,12 @@
     height: 50px;
     display: flex;
     justify-content: center;
+  }
+
+  .boton {
+    background-color: white;
+    display: flex;
+    justify-content: left;
   }
 }
 
