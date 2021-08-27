@@ -137,36 +137,36 @@
 
     @media 
 */
-.primera {
+header {
   font-family: "Yanone Kaffeesatz", sans-serif;
   font-size: 25px;
   font-style: inherit;
-  text-decoration: solid;
 }
-.primera .navbar {
+header .navbar {
   background-image: url(../imagenes/fondorosah.jpg);
   background-size: cover;
+  height: 250px;
 }
-.primera .navbar .logo1 {
-  margin-left: 10px;
+header .navbar .logo1 {
+  margin-left: 130px;
   width: 60%;
   height: 60%;
 }
-.primera .navbar .menu {
-  margin-left: 200px;
+header .navbar .menu {
+  margin-left: 300px;
 }
-.primera .navbar .menu .link {
+header .navbar .menu .nav-link {
   margin: 10px;
   color: black;
   text-decoration: solid;
   font-style: italic;
 }
-.primera .navbar .menu .link:hover {
+header .navbar .menu .nav-link:hover {
   color: rgba(10, 3, 3, 0.445);
 }
-.primera .navbar .menu .submenu {
+header .navbar .menu .submenu {
   font-family: "Yanone Kaffeesatz", sans-serif;
-  font-size: 20px;
+  font-size: 25px;
   color: black;
   text-decoration: solid;
   font-style: italic;
@@ -230,51 +230,43 @@
 }
 
 /*MEDIAS*/
-@media only screen and (min-width: 1200px) {
-  .logo1 {
-    width: 60%;
-    height: 60%;
-    margin-right: 100px;
-  }
-}
-@media only screen and (min-width: 992px) {
-  .section1 {
-    font-size: 5px;
+@media only screen and (min-width: 414px) and (max-width: 992px) {
+  .navbar {
+    height: 200px;
   }
 
-  .logo {
-    width: 50px;
-    height: 50px;
-  }
-}
-@media only screen and (min-width: 576px) {
-  .navbar {
-    background-image: none;
-    background-color: rosybrown;
-  }
-
-  .logo {
-    width: 50px;
-    height: 50px;
-  }
-}
-@media only screen and (min-width: 360 px) {
-  .navbar {
-    background-image: none;
-    background-color: rosybrown;
+  .a-logo1 {
+    width: 80%;
   }
 
   .logo1 {
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
+    width: 80%;
   }
 
   .boton {
     background-color: white;
-    display: flex;
-    justify-content: left;
+    margin-left: 100px;
+  }
+}
+@media only screen and (max-width: 414px) {
+  header .back-nav {
+    background-color: rosybrown;
+  }
+
+  .a-logo1 {
+    width: 80%;
+  }
+
+  .logo1 {
+    width: 80%;
+  }
+
+  .boton {
+    background-color: white;
+  }
+
+  .fotos1 {
+    height: 100%;
   }
 }
 

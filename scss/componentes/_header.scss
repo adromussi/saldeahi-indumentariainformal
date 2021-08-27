@@ -1,25 +1,24 @@
 @import"../base/fonts";
 @import"../base/colores";
 @import"../base/medias";
-.primera {
+header {
     font-family: $font2;
     font-size: 25px;
     font-style: inherit;
-    text-decoration: solid;
-
-    .navbar{
-       
+    
+    .navbar{ 
         background-image: url(../imagenes/fondorosah.jpg);
         background-size: cover;
+        height: 250px;
 
         .logo1 {
-            margin-left: 10px; 
+            margin-left: 130px; 
             width: 60%;   
             height: 60%;
         }
         .menu {
-            margin-left: 200px;
-            .link {
+            margin-left: 300px;
+            .nav-link {
                 margin: 10px;
                 @include mixmenu;
 
@@ -30,7 +29,7 @@
             }
             .submenu {
                 font-family: $font2;
-                font-size: 20px;
+                font-size: 25px;
                 @include mixmenu;
 
                 /*&:hover{
@@ -105,57 +104,44 @@
 }
 
 /*MEDIAS*/
-@media only screen and (min-width: 1200px) {
-    .logo1{
-        width:60%;
-        height: 60%;
-        margin-right: 100px;
+
+@media only screen and (min-width:414px) and (max-width:992px) {
+    .navbar{
+        height: 200px;
     }
-    
-}
-@media only screen and (min-width: 992px){
-    
-   
-    .section1{       
-       font-size: 5px; 
+    .a-logo1{
+        width: 80%;
+        
        
-    }
-    .logo{
-        width: 50px;
-        height: 50px;
-
-    }
+      }
+      .logo1 {
+        width: 80%;
+      }
+      .boton {
+        background-color: white;
+        margin-left: 100px;
+        
+      } 
+     
 
 }
-@media only screen and (min-width: 768px){
-    
-}
-@media only screen and (min-width: 576px){
-    .navbar{
-        background-image: none;
-        background-color: rosybrown;
+@media only screen and (max-width:414px) {
+    header .back-nav {
+      background-color: rosybrown;
     }
-
-    .logo{
-        width: 50px;
-        height: 50px;
+    .a-logo1{
+      width: 80%;
       
+     
     }
-}
-@media only screen and (min-width:360 px){
-    .navbar{
-        background-image: none;
-        background-color: rosybrown;
-    }
-    .logo1{
-        width: 40px;
-        height: 40px;
-        display: flex;
-        justify-content:center ;
+    .logo1 {
+      width: 80%;
     }
     .boton {
-        background-color: white;
-        display: flex;
-        justify-content: left;
+      background-color: white;
     }
-}
+    .fotos1 {
+        height: 100%
+     }
+
+  }
