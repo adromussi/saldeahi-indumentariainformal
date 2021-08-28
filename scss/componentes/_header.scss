@@ -106,16 +106,29 @@ header {
 /*MEDIAS*/
 
 @media only screen and (min-width:414px) and (max-width:992px) {
-    .navbar{
-        height: 200px;
+    header{
+        .navbar{
+            height: 200px;
+            flex-wrap:nowrap;
+            
+            .menu{
+                flex-grow: revert; 
+                margin-left: 0%;
+            }
+        }
+
+    
+   }
+    .navbar-collapse{
+        flex-basis: 0%;
     }
     .a-logo1{
-        width: 80%;
+        height: 80%;
         
        
       }
       .logo1 {
-        width: 80%;
+        height: 80%;
       }
       .boton {
         background-color: white;
@@ -127,7 +140,8 @@ header {
 }
 @media only screen and (max-width:414px) {
     header .back-nav {
-      background-color: rosybrown;
+      background-color: rgb(223, 188, 188);
+      background-image: none;
     }
     .a-logo1{
       width: 80%;
@@ -140,8 +154,8 @@ header {
     .boton {
       background-color: white;
     }
-    .fotos1 {
-        height: 100%
+    .section2 .fotos1 {
+        height:0%;
      }
 
   }
