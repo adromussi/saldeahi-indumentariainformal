@@ -44,10 +44,6 @@
   }*/
 }
 
-.newsection {
-  margin: auto 20px;
-  padding-top: 20px;
-}
 .newsection .card {
   background-image: url(../imagenes/fondorosah.jpg);
   border-radius: 20px;
@@ -145,15 +141,10 @@ header {
 header .navbar {
   background-image: url(../imagenes/fondorosah.jpg);
   background-size: cover;
-  height: 250px;
-}
-header .navbar .logo1 {
-  margin-left: 130px;
-  width: 60%;
-  height: 60%;
+  height: 150px;
 }
 header .navbar .menu {
-  margin-left: 300px;
+  margin-left: 150px;
 }
 header .navbar .menu .nav-link {
   margin: 10px;
@@ -164,27 +155,20 @@ header .navbar .menu .nav-link {
 header .navbar .menu .nav-link:hover {
   color: rgba(10, 3, 3, 0.445);
 }
-header .navbar .menu .submenu {
-  font-family: "Yanone Kaffeesatz", sans-serif;
-  font-size: 25px;
-  color: black;
-  text-decoration: solid;
-  font-style: italic;
-  /*&:hover{
-      background-color:nth ($colorfondos,3) ;
-
-  }*/
-}
 
 .section1 {
   background-color: #E6E6FA;
-  height: 80px;
   text-align: center;
   font-family: "Yanone Kaffeesatz", sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   font-style: italic;
   padding-top: 20px;
   padding-bottom: 20px;
+  margin-top: 150px;
+}
+.section1 span {
+  font-family: "WindSong", cursive;
+  text-decoration: solid;
 }
 
 .section2 .fotos1 {
@@ -233,15 +217,9 @@ header .navbar .menu .submenu {
 @media only screen and (min-width: 414px) and (max-width: 992px) {
   header .navbar {
     height: 200px;
-    flex-wrap: nowrap;
   }
   header .navbar .menu {
-    flex-grow: revert;
     margin-left: 0%;
-  }
-
-  .navbar-collapse {
-    flex-basis: 0%;
   }
 
   .a-logo1 {

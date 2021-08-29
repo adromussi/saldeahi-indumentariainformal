@@ -9,53 +9,40 @@ header {
     .navbar{ 
         background-image: url(../imagenes/fondorosah.jpg);
         background-size: cover;
-        height: 250px;
+        height: 150px;
 
-        .logo1 {
-            margin-left: 130px; 
-            width: 60%;   
-            height: 60%;
-        }
         .menu {
-            margin-left: 300px;
+            margin-left: 150px;
+
             .nav-link {
                 margin: 10px;
                 @include mixmenu;
 
-                &:hover { 
-                    
+                &:hover {  
                     color: rgba(10, 3, 3, 0.445)
                 }
             }
-            .submenu {
-                font-family: $font2;
-                font-size: 25px;
-                @include mixmenu;
-
-                /*&:hover{
-                    background-color:nth ($colorfondos,3) ;
-                   
-                }*/
         
             } 
             
         }
-        
-        
-        
-
-    }
+      
     
 }
+
 .section1 {
-    background-color: #E6E6FA;
-    height: 80px;
+    span{
+        font-family: $font1;
+        text-decoration: solid;
+    }
+    background-color: #E6E6FA; 
     text-align: center;
     font-family: $font2;
-    font-size: 20px;
+    font-size: 15px;
     font-style: italic;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-top: 150px;
 }
  
 .section2 {
@@ -109,19 +96,16 @@ header {
     header{
         .navbar{
             height: 200px;
-            flex-wrap:nowrap;
             
             .menu{
-                flex-grow: revert; 
+                
                 margin-left: 0%;
             }
         }
 
     
    }
-    .navbar-collapse{
-        flex-basis: 0%;
-    }
+   
     .a-logo1{
         height: 80%;
         
@@ -146,7 +130,6 @@ header {
     .a-logo1{
       width: 80%;
       
-     
     }
     .logo1 {
       width: 80%;
@@ -154,6 +137,10 @@ header {
     .boton {
       background-color: white;
     }
+    
+    
+        
+    
     .section2 .fotos1 {
         height:0%;
      }
