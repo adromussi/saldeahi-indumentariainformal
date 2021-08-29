@@ -1,2 +1,31 @@
 @import"../base/fonts";
 @import"../base/colores";
+@import"../base/medias";
+header {
+    font-family: $font2;
+    font-size: 25px;
+    font-style: inherit;
+    
+    .navbar{ 
+        background-image: url(../imagenes/fondorosah.jpg);
+        background-size: cover;
+        height: 150px;
+
+        .menu {
+            margin-left: 150px;
+
+            .nav-link {
+                margin: 10px;
+                @include mixmenu;
+
+                &:hover {  
+                    color: rgba(10, 3, 3, 0.445)
+                }
+            }
+        
+            } 
+            
+        }
+      
+    
+}
