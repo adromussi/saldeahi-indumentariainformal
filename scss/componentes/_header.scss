@@ -2,9 +2,9 @@
 @import"../base/colores";
 @import"../base/medias";
 header {
-    font-family: $font2;
-    font-size: 25px;
-    font-style: inherit;
+    font-family: $font3;
+    font-size: 15px;
+    
     
     .navbar{ 
         background-image: url(../imagenes/fondorosah.jpg);
@@ -12,7 +12,9 @@ header {
         height: 150px;
 
         .menu {
-            margin-left: 150px;
+            
+            font-family: $font3;
+            text-decoration: solid;
 
             .nav-link {
                 margin: 10px;
@@ -37,8 +39,8 @@ header {
     }
     background-color: #E6E6FA; 
     text-align: center;
-    font-family: $font2;
-    font-size: 15px;
+    font-family: $font3;
+    font-size:5px;
     font-style: italic;
     padding-top: 20px;
     padding-bottom: 20px;

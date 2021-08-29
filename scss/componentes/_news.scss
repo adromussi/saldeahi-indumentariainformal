@@ -29,9 +29,20 @@ header {
       
     
 }
+.newsection {
+    margin-bottom: 20px;
+    background-color: #E6E6FA; 
+    text-align: center;
+    font-family: $font3;
+    font-size:5px;
+    font-style: italic;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 150px;
 
+}
 
-    .newsection{
+.newsection1{
    
     .card {
         background-image: url(../imagenes/fondorosah.jpg); 
@@ -47,8 +58,10 @@ header {
             font-size: 18px;
         }
     }
+   
 
 }
+
 .finpag {
     background-image: url(../imagenes/fondorosah.jpg);
     background-size:auto;
