@@ -283,8 +283,10 @@ header .navbar .menu .nav-link:hover {
   text-decoration: solid;
   font-style: italic;
 }
-.finpag .redes {
-  padding: 10px;
+.finpag .icono {
+  padding: 20px;
+  height: 30px;
+  width: 30px;
 }
 .finpag .mail {
   padding: 10px;
@@ -296,47 +298,99 @@ header .navbar .menu .nav-link:hover {
 }
 
 /*MEDIAS*/
-@media only screen and (min-width: 414px) and (max-width: 992px) {
-  header .navbar {
-    height: 200px;
+@media only screen and (min-width: 992px) and (max-width: 1300px) {
+  header .navbar .container {
+    justify-content: flex-end;
   }
   header .navbar .menu {
-    margin-left: 0%;
-  }
-
-  .a-logo1 {
-    height: 80%;
+    font-size: 20px;
   }
 
   .logo1 {
-    height: 80%;
+    width: 400px;
   }
-
-  .boton {
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  header .navbar .menu {
+    font-size: 20px;
+  }
+  header .navbar .boton {
     background-color: white;
     margin-left: 100px;
   }
-}
-@media only screen and (max-width: 414px) {
-  header .back-nav {
-    background-color: #dfbcbc;
-    background-image: none;
-  }
-
-  .a-logo1 {
-    width: 80%;
+  header .navbar .navbar-nav {
+    background-color: rosybrown;
+    font-size: 20px;
+    justify-content: center;
   }
 
   .logo1 {
-    width: 80%;
+    display: flex;
+    justify-content: right;
+    width: 350px;
   }
 
-  .boton {
+  .fotos2 {
+    width: 60%;
+    /*sacar efectos scale */
+  }
+}
+@media only screen and (min-width: 414px) and (max-width: 768px) {
+  header .navbar .container {
+    justify-content: center;
+  }
+  header .navbar .menu {
+    font-size: 20px;
+  }
+  header .navbar .boton {
     background-color: white;
+    margin-left: 100px;
+  }
+  header .navbar .navbar-nav {
+    background-color: rosybrown;
+    font-size: 20px;
+    justify-content: center;
+  }
+
+  .logo1 {
+    width: 200px;
   }
 
   .section2 .fotos1 {
     height: 0%;
+  }
+
+  .finpag {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 414px) {
+  header .navbar .container {
+    justify-content: center;
+  }
+  header .navbar .menu {
+    font-size: 10px;
+  }
+  header .navbar .boton {
+    background-color: white;
+    margin-left: 100px;
+  }
+  header .navbar .navbar-nav {
+    background-color: rosybrown;
+    font-size: 10px;
+    justify-content: center;
+  }
+
+  .logo1 {
+    width: 150px;
+  }
+
+  .section2 .fotos1 {
+    height: 0%;
+  }
+
+  .finpag {
+    font-size: 10px;
   }
 }
 /*@media only screen and (min-width: 992px) {

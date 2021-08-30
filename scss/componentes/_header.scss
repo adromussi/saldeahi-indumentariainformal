@@ -77,8 +77,10 @@ header {
     font-size: 20px;
     @include mixmenu;
     
-    .redes{
-        padding: 10px;
+    .icono {
+        padding: 20px;
+        height: 30px;
+        width: 30px;
     }
     .mail {
         padding: 10px;
@@ -93,58 +95,116 @@ header {
 }
 
 /*MEDIAS*/
-
-@media only screen and (min-width:414px) and (max-width:992px) {
+@media only screen and (min-width:992px) and (max-width:1300px) {
     header{
         .navbar{
-            height: 200px;
+            .container{
+                justify-content: flex-end;
+            }
             
             .menu{
-                
-                margin-left: 0%;
+                font-size: 20px;   
             }
         }
-
-    
+   }  
+   .logo1{
+       width: 400px;
    }
-   
-    .a-logo1{
-        height: 80%;
+}
+@media only screen and (min-width:768px) and (max-width:992px) {
+    header{
+        .navbar{ 
+            .menu{
+                font-size: 20px;  
+            }
+            .boton {
+                background-color: white;
+                margin-left: 100px;  
+            } 
+            .navbar-nav {
+                background-color: rosybrown;
+                font-size: 20px;
+                justify-content: center;
+               
+            }
+        }
+   }
+    .logo1 {
+          display: flex;
+          justify-content:right;
+          width: 350px;
+    }
+    .fotos2{
+        width: 60%;
+        /*sacar efectos scale */
         
+    }
+    
+}
+@media only screen and (min-width:414px) and (max-width:768px) {
+    header{
+        .navbar{
+            .container{
+                justify-content: center;
+            }
+            .menu{
+                font-size: 20px;   
+            }
+            .boton {
+                background-color: white;
+                margin-left: 100px;  
+            } 
+            .navbar-nav {
+                background-color: rosybrown;
+                font-size: 20px;
+                justify-content: center;
+               
+            }
+           
+        }
+   }  
+   .logo1{
+       width: 200px;
        
-      }
-      .logo1 {
-        height: 80%;
-      }
-      .boton {
-        background-color: white;
-        margin-left: 100px;
-        
-      } 
-     
+   }
+   .section2 .fotos1 {
+       height: 0%;
+   }
+   .finpag {
+       font-size: 15px;
+   }
 
 }
 @media only screen and (max-width:414px) {
-    header .back-nav {
-      background-color: rgb(223, 188, 188);
-      background-image: none;
-    }
-    .a-logo1{
-      width: 80%;
-      
-    }
-    .logo1 {
-      width: 80%;
-    }
-    .boton {
-      background-color: white;
-    }
-    
-    
-        
-    
-    .section2 .fotos1 {
-        height:0%;
-     }
-
-  }
+    header{
+        .navbar{
+            .container{
+                justify-content: center;
+            }
+            .menu{
+                font-size: 10px;   
+            }
+            .boton {
+                background-color: white;
+                margin-left: 100px;  
+            } 
+            .navbar-nav {
+                background-color: rosybrown;
+                font-size: 10px;
+                justify-content: center;
+               
+            }
+           
+        }
+   }  
+   .logo1{
+       width: 150px;
+       
+   }
+   .section2 .fotos1 {
+       height: 0%;
+   }
+   .finpag {
+       font-size: 10px;
+   }
+}
