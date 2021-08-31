@@ -19,13 +19,40 @@ header {
                 @include mixmenu;
 
                 &:hover {  
-                    color: rgba(10, 3, 3, 0.445)
+                    color: rgba(10, 3, 3, 0.445);
                 }
             }
         
             } 
             
+        }  
+}
+.section1 {
+    background-color: #E6E6FA; 
+    text-align: center;
+    font-family: $font3;
+    font-size:5px;
+    font-style: italic;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 150px;
+}
+ 
+.sec-catalogo{
+    .row-catalogo{
+        display: flex;
+        justify-content: center;
+        .card-catalogo{
+           margin: 10px;
+           border-radius: 20px;
+           background-color: blanchedalmond;
+            .img-catalogo{
+                width: 250px ;
+                height: 300px;
+                margin: 15px;
+                align-content: center;
+            }
         }
-      
-    
+
+    }
 }

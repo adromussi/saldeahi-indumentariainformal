@@ -60,10 +60,7 @@ header {
     .fotos2{
         padding: 10px;
         width: 95%;
-        &:hover {
-            @include trasform;
-            width: 60%;
-        }
+        
         
     }  
 }
@@ -170,6 +167,11 @@ header {
    .section2 .fotos1 {
        height: 0%;
    }
+   .fotos2{
+    width: 60%;
+    /*sacar efectos scale */
+    
+}
    .finpag {
        font-size: 15px;
    }

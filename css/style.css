@@ -169,27 +169,31 @@ header .navbar .menu .nav-link:hover {
   color: rgba(10, 3, 3, 0.445);
 }
 
-header {
-  font-family: "Yanone Kaffeesatz", sans-serif;
-  font-size: 25px;
-  font-style: inherit;
-}
-header .navbar {
-  background-image: url(../imagenes/fondorosah.jpg);
-  background-size: cover;
-  height: 150px;
-}
-header .navbar .menu {
-  margin-left: 150px;
-}
-header .navbar .menu .nav-link {
-  margin: 10px;
-  color: black;
-  text-decoration: solid;
+.section1 {
+  background-color: #E6E6FA;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 5px;
   font-style: italic;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 150px;
 }
-header .navbar .menu .nav-link:hover {
-  color: rgba(10, 3, 3, 0.445);
+
+.sec-catalogo .row-catalogo {
+  display: flex;
+  justify-content: center;
+}
+.sec-catalogo .row-catalogo .card-catalogo {
+  margin: 10px;
+  border-radius: 20px;
+  background-color: blanchedalmond;
+}
+.sec-catalogo .row-catalogo .card-catalogo .img-catalogo {
+  width: 250px;
+  height: 300px;
+  margin: 15px;
+  align-content: center;
 }
 
 header {
@@ -213,6 +217,83 @@ header .navbar .menu .nav-link {
 }
 header .navbar .menu .nav-link:hover {
   color: rgba(10, 3, 3, 0.445);
+}
+
+.section1 {
+  background-color: #E6E6FA;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 5px;
+  font-style: italic;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 150px;
+}
+
+.sec-catalogo .row-catalogo {
+  display: flex;
+  justify-content: center;
+}
+.sec-catalogo .row-catalogo .card-catalogo {
+  margin: 10px;
+  border-radius: 20px;
+  background-color: blanchedalmond;
+}
+.sec-catalogo .row-catalogo .card-catalogo .img-catalogo {
+  width: 250px;
+  height: 300px;
+  margin: 15px;
+  align-content: center;
+}
+
+header {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 25px;
+  font-style: inherit;
+}
+header .navbar {
+  background-image: url(../imagenes/fondorosah.jpg);
+  background-size: cover;
+  height: 150px;
+}
+header .navbar .menu {
+  margin-left: 150px;
+}
+header .navbar .menu .nav-link {
+  margin: 10px;
+  color: black;
+  text-decoration: solid;
+  font-style: italic;
+}
+header .navbar .menu .nav-link:hover {
+  color: rgba(10, 3, 3, 0.445);
+}
+
+.section1 {
+  background-color: #E6E6FA;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 5px;
+  font-style: italic;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 150px;
+}
+
+.sec-catalogo .row-catalogo {
+  display: flex;
+  justify-content: center;
+}
+.sec-catalogo .row-catalogo .card-catalogo {
+  margin: 10px;
+  border-radius: 20px;
+  background-color: blanchedalmond;
+}
+.sec-catalogo .row-catalogo .card-catalogo .img-catalogo {
+  width: 250px;
+  height: 300px;
+  margin: 15px;
+  align-content: center;
 }
 
 header {
@@ -265,10 +346,6 @@ header .navbar .menu .nav-link:hover {
 .section3 .fotos2 {
   padding: 10px;
   width: 95%;
-}
-.section3 .fotos2:hover {
-  transform: scale(2);
-  width: 60%;
 }
 
 .finpag {
@@ -360,6 +437,11 @@ header .navbar .menu .nav-link:hover {
     height: 0%;
   }
 
+  .fotos2 {
+    width: 60%;
+    /*sacar efectos scale */
+  }
+
   .finpag {
     font-size: 15px;
   }
@@ -423,6 +505,46 @@ header .navbar .menu .nav-link {
 }
 header .navbar .menu .nav-link:hover {
   color: rgba(10, 3, 3, 0.445);
+}
+
+.section1 {
+  background-color: #E6E6FA;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 5px;
+  font-style: italic;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 150px;
+}
+
+.catalogo {
+  display: flex;
+  justify-content: center;
+}
+.catalogo .fotos4 {
+  width: 300px;
+  height: 500px;
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.catalogo h2 {
+  font-family: "WindSong", cursive;
+  text-align: center;
+}
+.catalogo .btn {
+  background-color: blanchedalmond;
+  align-content: center;
+  width: 300px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+.catalogo .btn a {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */
