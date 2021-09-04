@@ -80,6 +80,15 @@ header .navbar .menu .nav-link:hover {
   /**/
 }
 
+/*@media only screen and (min-width: 992px) {
+    .containerSuc {color: red; }
+  }
+  @media only screen and (min-width:796px) and (max-width: 991px){
+  @media only screen and (max-width: 795px){*/
+/*@mixin mediaq ($media) {
+
+    @media 
+*/
 header {
   font-family: "Yanone Kaffeesatz", sans-serif;
   font-size: 25px;
@@ -145,106 +154,15 @@ header .navbar .menu .nav-link:hover {
   /**/
 }
 
-header {
-  font-family: "Yanone Kaffeesatz", sans-serif;
-  font-size: 25px;
-  font-style: inherit;
-}
-header .navbar {
-  background-image: url(../imagenes/fondorosah.jpg);
-  background-size: cover;
-  height: 150px;
-}
-header .navbar .menu {
-  margin-left: 150px;
-}
-header .navbar .menu .nav-link {
-  margin: 10px;
-  color: black;
-  text-decoration: solid;
-  font-style: italic;
-}
-header .navbar .menu .nav-link:hover {
-  color: rgba(10, 3, 3, 0.445);
-}
+/*@media only screen and (min-width: 992px) {
+    .containerSuc {color: red; }
+  }
+  @media only screen and (min-width:796px) and (max-width: 991px){
+  @media only screen and (max-width: 795px){*/
+/*@mixin mediaq ($media) {
 
-.section1 {
-  background-color: #E6E6FA;
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  font-size: 5px;
-  font-style: italic;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin-top: 150px;
-}
-
-.sec-catalogo .row-catalogo {
-  display: flex;
-  justify-content: center;
-}
-.sec-catalogo .row-catalogo .card-catalogo {
-  margin: 10px;
-  border-radius: 20px;
-  background-color: blanchedalmond;
-}
-.sec-catalogo .row-catalogo .card-catalogo .img-catalogo {
-  width: 250px;
-  height: 300px;
-  margin: 15px;
-  align-content: center;
-}
-
-header {
-  font-family: "Yanone Kaffeesatz", sans-serif;
-  font-size: 25px;
-  font-style: inherit;
-}
-header .navbar {
-  background-image: url(../imagenes/fondorosah.jpg);
-  background-size: cover;
-  height: 150px;
-}
-header .navbar .menu {
-  margin-left: 150px;
-}
-header .navbar .menu .nav-link {
-  margin: 10px;
-  color: black;
-  text-decoration: solid;
-  font-style: italic;
-}
-header .navbar .menu .nav-link:hover {
-  color: rgba(10, 3, 3, 0.445);
-}
-
-.section1 {
-  background-color: #E6E6FA;
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  font-size: 5px;
-  font-style: italic;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin-top: 150px;
-}
-
-.sec-catalogo .row-catalogo {
-  display: flex;
-  justify-content: center;
-}
-.sec-catalogo .row-catalogo .card-catalogo {
-  margin: 10px;
-  border-radius: 20px;
-  background-color: blanchedalmond;
-}
-.sec-catalogo .row-catalogo .card-catalogo .img-catalogo {
-  width: 250px;
-  height: 300px;
-  margin: 15px;
-  align-content: center;
-}
-
+    @media 
+*/
 header {
   font-family: "Yanone Kaffeesatz", sans-serif;
   font-size: 25px;
@@ -287,6 +205,7 @@ header .navbar .menu .nav-link:hover {
   margin: 10px;
   border-radius: 20px;
   background-color: #ffe4e1;
+  border: solid blue 1px;
 }
 .sec-catalogo .row-catalogo .card-catalogo .img-catalogo {
   width: 230px;
@@ -297,12 +216,239 @@ header .navbar .menu .nav-link:hover {
 }
 .sec-catalogo .row-catalogo .card-catalogo .tex-catalogo {
   text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+}
+.sec-catalogo .row-catalogo .card-catalogo .tex-catalogo .btn-catalogo {
+  background-color: #c39ce7;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 25px;
+  color: black;
 }
 
 .fin-catalogo {
   font-family: "WindSong", cursive;
   text-align: center;
   font-size: 30px;
+}
+
+.finpag {
+  background-image: url(../imagenes/fondorosah.jpg);
+  background-size: auto;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 20px;
+  font-weight: initial;
+  font-size: 20px;
+  color: black;
+  text-decoration: solid;
+  font-style: italic;
+}
+.finpag .redes {
+  padding: 10px;
+}
+.finpag .mail:hover {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 30px;
+  /**/
+}
+
+/*@media only screen and (min-width: 992px) {
+    .containerSuc {color: red; }
+  }
+  @media only screen and (min-width:796px) and (max-width: 991px){
+  @media only screen and (max-width: 795px){*/
+/*@mixin mediaq ($media) {
+
+    @media 
+*/
+header {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 25px;
+  font-style: inherit;
+}
+header .navbar {
+  background-image: url(../imagenes/fondorosah.jpg);
+  background-size: cover;
+  height: 150px;
+}
+header .navbar .menu {
+  margin-left: 150px;
+}
+header .navbar .menu .nav-link {
+  margin: 10px;
+  color: black;
+  text-decoration: solid;
+  font-style: italic;
+}
+header .navbar .menu .nav-link:hover {
+  color: rgba(10, 3, 3, 0.445);
+}
+
+.section1 {
+  background-color: #E6E6FA;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 5px;
+  font-style: italic;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 150px;
+}
+
+.sec-catalogo .row-catalogo {
+  display: flex;
+  justify-content: center;
+}
+.sec-catalogo .row-catalogo .card-catalogo {
+  margin: 10px;
+  border-radius: 20px;
+  background-color: #ffe4e1;
+  border: solid blue 1px;
+}
+.sec-catalogo .row-catalogo .card-catalogo .img-catalogo {
+  width: 230px;
+  height: 300px;
+  margin: 15px;
+  justify-content: center;
+  border-radius: 10px;
+}
+.sec-catalogo .row-catalogo .card-catalogo .tex-catalogo {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+}
+.sec-catalogo .row-catalogo .card-catalogo .tex-catalogo .btn-catalogo {
+  background-color: #c39ce7;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 25px;
+  color: black;
+}
+
+.fin-catalogo {
+  font-family: "WindSong", cursive;
+  text-align: center;
+  font-size: 30px;
+}
+
+.finpag {
+  background-image: url(../imagenes/fondorosah.jpg);
+  background-size: auto;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 20px;
+  font-weight: initial;
+  font-size: 20px;
+  color: black;
+  text-decoration: solid;
+  font-style: italic;
+}
+.finpag .redes {
+  padding: 10px;
+}
+.finpag .mail:hover {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 30px;
+  /**/
+}
+
+/*@media only screen and (min-width: 992px) {
+    .containerSuc {color: red; }
+  }
+  @media only screen and (min-width:796px) and (max-width: 991px){
+  @media only screen and (max-width: 795px){*/
+/*@mixin mediaq ($media) {
+
+    @media 
+*/
+header {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 25px;
+  font-style: inherit;
+}
+header .navbar {
+  background-image: url(../imagenes/fondorosah.jpg);
+  background-size: cover;
+  height: 150px;
+}
+header .navbar .menu {
+  margin-left: 150px;
+}
+header .navbar .menu .nav-link {
+  margin: 10px;
+  color: black;
+  text-decoration: solid;
+  font-style: italic;
+}
+header .navbar .menu .nav-link:hover {
+  color: rgba(10, 3, 3, 0.445);
+}
+
+.section1 {
+  background-color: #E6E6FA;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 5px;
+  font-style: italic;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 150px;
+}
+
+.sec-catalogo .row-catalogo {
+  display: flex;
+  justify-content: center;
+}
+.sec-catalogo .row-catalogo .card-catalogo {
+  margin: 10px;
+  border-radius: 20px;
+  background-color: #ffe4e1;
+  border: solid blue 1px;
+}
+.sec-catalogo .row-catalogo .card-catalogo .img-catalogo {
+  width: 230px;
+  height: 300px;
+  margin: 15px;
+  justify-content: center;
+  border-radius: 10px;
+}
+.sec-catalogo .row-catalogo .card-catalogo .tex-catalogo {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+}
+.sec-catalogo .row-catalogo .card-catalogo .tex-catalogo .btn-catalogo {
+  background-color: #c39ce7;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 25px;
+  color: black;
+}
+
+.fin-catalogo {
+  font-family: "WindSong", cursive;
+  text-align: center;
+  font-size: 30px;
+}
+
+.finpag {
+  background-image: url(../imagenes/fondorosah.jpg);
+  background-size: auto;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 20px;
+  font-weight: initial;
+  font-size: 20px;
+  color: black;
+  text-decoration: solid;
+  font-style: italic;
+}
+.finpag .redes {
+  padding: 10px;
+}
+.finpag .mail:hover {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 30px;
+  /**/
 }
 
 header {
@@ -552,6 +698,27 @@ header .navbar .menu .nav-link:hover {
   font-size: 30px;
   text-decoration: none;
   color: black;
+}
+
+.finpag {
+  background-image: url(../imagenes/fondorosah.jpg);
+  background-size: auto;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 20px;
+  font-weight: initial;
+  font-size: 20px;
+  color: black;
+  text-decoration: solid;
+  font-style: italic;
+}
+.finpag .redes {
+  padding: 10px;
+}
+.finpag .mail:hover {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 30px;
+  /**/
 }
 
 /*# sourceMappingURL=style.css.map */
