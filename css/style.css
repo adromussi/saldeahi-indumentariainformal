@@ -109,8 +109,7 @@ header .navbar .menu .nav-link:hover {
 }
 .sucursales .row-card .card1 {
   margin: 20px;
-  background-image: url(../imagenes/fondorosah.jpg);
-  background-size: cover;
+  background-color: #fcfcda;
 }
 .sucursales .row-card .card1 .fotos4 {
   width: 100%;
@@ -287,13 +286,23 @@ header .navbar .menu .nav-link:hover {
 .sec-catalogo .row-catalogo .card-catalogo {
   margin: 10px;
   border-radius: 20px;
-  background-color: blanchedalmond;
+  background-color: #ffe4e1;
 }
 .sec-catalogo .row-catalogo .card-catalogo .img-catalogo {
-  width: 250px;
+  width: 230px;
   height: 300px;
   margin: 15px;
-  align-content: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.sec-catalogo .row-catalogo .card-catalogo .tex-catalogo {
+  text-align: center;
+}
+
+.fin-catalogo {
+  font-family: "WindSong", cursive;
+  text-align: center;
+  font-size: 30px;
 }
 
 header {
@@ -362,8 +371,6 @@ header .navbar .menu .nav-link:hover {
 }
 .finpag .icono {
   padding: 20px;
-  height: 30px;
-  width: 30px;
 }
 .finpag .mail {
   padding: 10px;
@@ -524,7 +531,7 @@ header .navbar .menu .nav-link:hover {
 }
 .catalogo .fotos4 {
   width: 300px;
-  height: 500px;
+  height: 400px;
   border-radius: 30px;
   margin-top: 20px;
   margin-bottom: 20px;
