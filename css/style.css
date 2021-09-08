@@ -118,19 +118,28 @@ header .navbar .menu .nav-link:hover {
 }
 .sucursales .row-card .card1 {
   margin: 20px;
-  background-color: #fcfcda;
+  background-color: #f4d9e6;
+  border-radius: 20px;
+  border: solid blue 1px;
 }
 .sucursales .row-card .card1 .fotos4 {
   width: 100%;
   height: 60%;
   padding: 15px;
   align-content: center;
+  border-radius: 20px;
 }
 .sucursales .row-card .card1 .texto2 {
   text-align: center;
   color: black;
   text-decoration: solid;
   font-style: italic;
+}
+.sucursales .row-card .card1 .texto2 .btn-sucursales {
+  background-color: #E6E6FA;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 20px;
+  color: black;
 }
 
 .finpag {
