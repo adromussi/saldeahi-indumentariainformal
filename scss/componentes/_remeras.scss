@@ -74,7 +74,23 @@ header {
     font-family: $font1;
     text-align: center;
     font-size: 30px;
+    .btn{
+        background-color: blanchedalmond;
+        align-content: center;
+        width: 300px;
+        height: 50px ;
+        margin-bottom: 20px;
+        a{
+            font-family: $font2;
+            font-size: 30px;
+            text-decoration: none;
+            color: black;
+            
+        }
+     
+    }
 }
+
 .finpag {
     background-image: url(../imagenes/fondorosah.jpg);
     background-size:auto;

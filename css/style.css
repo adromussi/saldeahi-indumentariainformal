@@ -118,9 +118,9 @@ header .navbar .menu .nav-link:hover {
 }
 .sucursales .row-card .card1 {
   margin: 20px;
-  background-color: #f4d9e6;
+  background-color: #ffefc7;
   border-radius: 20px;
-  border: solid blue 1px;
+  border: solid #ffd261 1px;
 }
 .sucursales .row-card .card1 .fotos4 {
   width: 100%;
@@ -137,6 +137,7 @@ header .navbar .menu .nav-link:hover {
 }
 .sucursales .row-card .card1 .texto2 .btn-sucursales {
   background-color: #E6E6FA;
+  border: solid #8c8ce8 1px;
   font-family: "Yanone Kaffeesatz", sans-serif;
   font-size: 20px;
   color: black;
@@ -240,6 +241,19 @@ header .navbar .menu .nav-link:hover {
   text-align: center;
   font-size: 30px;
 }
+.fin-catalogo .btn {
+  background-color: blanchedalmond;
+  align-content: center;
+  width: 300px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+.fin-catalogo .btn a {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+}
 
 .finpag {
   background-image: url(../imagenes/fondorosah.jpg);
@@ -339,6 +353,19 @@ header .navbar .menu .nav-link:hover {
   text-align: center;
   font-size: 30px;
 }
+.fin-catalogo .btn {
+  background-color: blanchedalmond;
+  align-content: center;
+  width: 300px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+.fin-catalogo .btn a {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+}
 
 .finpag {
   background-image: url(../imagenes/fondorosah.jpg);
@@ -411,8 +438,8 @@ header .navbar .menu .nav-link:hover {
 .sec-catalogo .row-catalogo .card-catalogo {
   margin: 10px;
   border-radius: 20px;
-  background-color: #ffe4e1;
-  border: solid blue 1px;
+  background-color: #fee9dd;
+  border: solid #ffab75 1px;
 }
 .sec-catalogo .row-catalogo .card-catalogo .img-catalogo {
   width: 230px;
@@ -427,7 +454,8 @@ header .navbar .menu .nav-link:hover {
   font-size: 40px;
 }
 .sec-catalogo .row-catalogo .card-catalogo .tex-catalogo .btn-catalogo {
-  background-color: #c39ce7;
+  background-color: #eac2ff;
+  border: solid #d075ff 1px;
   font-family: "Yanone Kaffeesatz", sans-serif;
   font-size: 25px;
   color: black;
@@ -437,6 +465,19 @@ header .navbar .menu .nav-link:hover {
   font-family: "WindSong", cursive;
   text-align: center;
   font-size: 30px;
+}
+.fin-catalogo .btn {
+  background-color: blanchedalmond;
+  align-content: center;
+  width: 300px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+.fin-catalogo .btn a {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
 }
 
 .finpag {
